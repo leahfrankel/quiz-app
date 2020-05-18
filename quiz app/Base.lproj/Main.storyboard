@@ -23,7 +23,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oB8-yB-tgu">
-                                <rect key="frame" x="33" y="822" width="349" height="40"/>
+                                <rect key="frame" x="33" y="739" width="349" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="CLICK HERE TO GO TO THE QUIZ!"/>
@@ -211,6 +211,9 @@
                                 <state key="normal" title="CLICK HERE TO TRY AGAIN !">
                                     <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="zbF-To-b9a" kind="show" id="o4o-29-hfI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -225,5 +228,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="7OU-cd-LlE"/>
+        <segue reference="o4o-29-hfI"/>
     </inferredMetricsTieBreakers>
 </document>
