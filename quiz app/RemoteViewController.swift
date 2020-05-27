@@ -10,6 +10,8 @@ import UIKit
 
 class RemoteViewController: UIViewController {
 
+    @IBOutlet weak var resultsMessageLabel: UILabel!
+    @IBOutlet weak var scoreLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
