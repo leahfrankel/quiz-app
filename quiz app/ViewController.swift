@@ -36,6 +36,8 @@ class ViewController: UIViewController {
       Answer2.setTitle(currentQuestion!.answers[2], for: .normal)
       Answer3.setTitle(currentQuestion!.answers[3], for: .normal)
       progressLabel.text = "Question \(currentQuestionPosition + 1) of \(questions.count)"
+    
+    //loadnextquestion:
     if ((currentQuestionPosition + 1) == questions.count) {
              performSegue(withIdentifier: "sgShowResults", sender: nil)
              }
@@ -43,7 +45,9 @@ class ViewController: UIViewController {
         currentQuestionPosition += 1
              currentQuestion = questions[currentQuestionPosition]
              setQuestion() }
-       
+    
+    //checkanswer:
+    
     }
     
     
