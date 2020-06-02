@@ -15,7 +15,7 @@ class RemoteViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        resultsMessageLabel.text = "You got \(noCorrect) out of \(total)"
+       scoreLabel.text = "You got \(noCorrect) out of \(total)"
         resultsMessageLabel.text = "Hey awesome person!"
 
 // Do any additional setup after loading the view.
