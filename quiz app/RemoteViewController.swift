@@ -17,12 +17,14 @@ class RemoteViewController: UIViewController {
 
        scoreLabel.text = "You got \(noCorrect) out of \(total)"
         resultsMessageLabel.text = "Hey awesome person!"
-
+        
+     
 // Do any additional setup after loading the view.
     }
     
-var noCorrect = 0
-    var total = 0
+  var noCorrect = 0
+var total = 0
+        
     /*
     // MARK: - Navigation
 
