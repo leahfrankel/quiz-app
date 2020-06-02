@@ -68,8 +68,14 @@ func checkAnswer(choiceNo: Int){
     
 }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+      if(segue.identifier == "sgShowResults") {
+        let vc = segue.destination as! RemoteViewController
+        vc.noCorrect = noCorrect
+        vc.total = questions.count
+      }
+    }
 
-    
     //addnewhere
 
 //checkanswer:

@@ -15,10 +15,14 @@ class RemoteViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        resultsMessageLabel.text = "You got \(noCorrect) out of \(total)"
+        resultsMessageLabel.text = "Hey awesome person!"
+
+// Do any additional setup after loading the view.
     }
     
-
+var noCorrect = 0
+    var total = 0
     /*
     // MARK: - Navigation
 
