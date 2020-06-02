@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         Answer1.setTitle(currentQuestion!.answers[1], for: .normal)
         Answer2.setTitle(currentQuestion!.answers[2], for: .normal)
         Answer3.setTitle(currentQuestion!.answers[3], for: .normal)
-        progressLabel.text = "Question \(currentQuestionPosition + 1) of \(questions.count)"
+        progressLabel.text = "QUESTION \(currentQuestionPosition + 1) OF \(questions.count)"
         
     }
     //loadnextquestion:
