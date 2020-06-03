@@ -106,7 +106,6 @@
                                     <color key="titleColor" red="0.14318563197202516" green="0.85078863601890919" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="handleSubmitAnswer0:" destination="zbF-To-b9a" eventType="touchUpInside" id="MVj-VR-sKQ"/>
                                     <action selector="handleSubmitAnswer1:" destination="zbF-To-b9a" eventType="touchUpInside" id="AKr-QM-0JH"/>
                                 </connections>
                             </button>
@@ -147,7 +146,7 @@
                                     <color key="titleColor" red="0.95851840101522845" green="0.53836868829668039" blue="0.66515365769625301" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="handleSubmitAnswer0:" destination="zbF-To-b9a" eventType="touchUpInside" id="VwT-HU-Djv"/>
+                                    <action selector="handleSubmitAnswer0:" destination="zbF-To-b9a" eventType="touchUpInside" id="z2w-oF-WgW"/>
                                 </connections>
                             </button>
                         </subviews>
