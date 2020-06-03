@@ -126,7 +126,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                 <state key="normal" title="D">
-                                    <color key="titleColor" red="0.23364822942067406" green="0.90491626857512686" blue="0.40745584759741288" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.024720564563958658" green="1" blue="0.16671072178440782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="handleSubmitAnswer3:" destination="zbF-To-b9a" eventType="touchUpInside" id="BZ5-Hm-oiT"/>

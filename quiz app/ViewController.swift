@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func handleSubmitAnswer1(_ sender: Any) {
-         checkAnswer(choiceNo: 1)
+    checkAnswer(choiceNo: 1)
     }
     
     @IBAction func handleSubmitAnswer2(_ sender: Any) {
@@ -92,16 +92,16 @@ var questions: [Question] = [
         correctAnswer: 2),
    Question(
               question: "WHAT IS MY FAVORITE CHOCOLATE BAR",
-              answers: ["KIT KAT", "TWIX", "MILKY WAY", "REECES"],
-              correctAnswer: 3),
+              answers: ["KIT KAT","REESE'S", "TWIX", "MILKY WAY" ],
+              correctAnswer: 1),
     Question(
                question: "WHAT IS MY FAVORITE SEASON?",
                answers: ["SPRING", "WINTER", "SUMMER", "FALL"],
                correctAnswer: 0),
     Question(
                question: "HOW MANY SIBLINGS DO I HAVE?",
-               answers: ["3", "4", "2", "5"],
-               correctAnswer: 0),
+               answers: ["5", "4", "2", "3"],
+               correctAnswer: 3),
     Question(
                   question: "WHAT IS MY FAVORITE TYPE OF CAKE?",
                   answers: ["BROWNIES", "APPLE PIE", "CHEESECAKE", "BLONDIE"],
@@ -111,9 +111,8 @@ var questions: [Question] = [
                   answers: ["BRACHA", "ADINA", "SUSAN", "TINA"],
                   correctAnswer: 1),
 
-
-
 ]
+    
 var currentQuestion: Question?
 var currentQuestionPosition: Int = 0
 var noCorrect: Int = 0
