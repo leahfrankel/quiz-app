@@ -99,9 +99,21 @@ var questions: [Question] = [
                answers: ["SPRING", "WINTER", "SUMMER", "FALL"],
                correctAnswer: 0),
     Question(
-               question: "HOW MANY SIBLINGS DO I HAVE",
+               question: "HOW MANY SIBLINGS DO I HAVE?",
                answers: ["3", "4", "2", "5"],
                correctAnswer: 0),
+    Question(
+                  question: "WHAT IS MY FAVORITE TYPE OF CAKE?",
+                  answers: ["BROWNIES", "APPLE PIE", "CHEESECAKE", "BLONDIE"],
+                  correctAnswer: 2),
+    Question(
+                  question: "WHAT IS MY MOM'S NAME?",
+                  answers: ["BRACHA", "ADINA", "SUSAN", "TINA"],
+                  correctAnswer: 1),
+    Question(
+    question: "WHAT MEAL OF THE DAY IS Y FAVORITE?",
+    answers: ["DINNER", "LUNCH" , "BREAKFAST"],
+    correctAnswer: 2),
 
 
 
