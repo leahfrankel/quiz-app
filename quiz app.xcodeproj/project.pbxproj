@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B43ADCBF24874A09006D5306 /* IMG_0042 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B43ADCBE24874A08006D5306 /* IMG_0042 2.JPG */; };
+		B43ADCC124874A86006D5306 /* IMG_1214.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = B43ADCC024874A86006D5306 /* IMG_1214.HEIC */; };
+		B43ADCC324874B03006D5306 /* Screen Shot 2020-06-02 at 11.05.01 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B43ADCC224874B03006D5306 /* Screen Shot 2020-06-02 at 11.05.01 PM.png */; };
+		B43ADCC524874B8A006D5306 /* Screen Shot 2020-06-02 at 11.07.25 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B43ADCC424874B8A006D5306 /* Screen Shot 2020-06-02 at 11.07.25 PM.png */; };
+		B43ADCC724874E21006D5306 /* Screen Shot 2020-06-02 at 11.18.22 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B43ADCC624874E21006D5306 /* Screen Shot 2020-06-02 at 11.18.22 PM.png */; };
 		B44C8F12247DFAEB001BF23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45D197E2472FFB9009A5FD2 /* Assets.xcassets */; };
 		B45D19762472FFAE009A5FD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D19752472FFAE009A5FD2 /* AppDelegate.swift */; };
 		B45D19782472FFAE009A5FD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D19772472FFAE009A5FD2 /* SceneDelegate.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B43ADCBE24874A08006D5306 /* IMG_0042 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "IMG_0042 2.JPG"; path = "../../Downloads/IMG_0042 2.JPG"; sourceTree = "<group>"; };
+		B43ADCC024874A86006D5306 /* IMG_1214.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; name = IMG_1214.HEIC; path = ../../Downloads/IMG_1214.HEIC; sourceTree = "<group>"; };
+		B43ADCC224874B03006D5306 /* Screen Shot 2020-06-02 at 11.05.01 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2020-06-02 at 11.05.01 PM.png"; path = "../Screen Shot 2020-06-02 at 11.05.01 PM.png"; sourceTree = "<group>"; };
+		B43ADCC424874B8A006D5306 /* Screen Shot 2020-06-02 at 11.07.25 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2020-06-02 at 11.07.25 PM.png"; path = "../Screen Shot 2020-06-02 at 11.07.25 PM.png"; sourceTree = "<group>"; };
+		B43ADCC624874E21006D5306 /* Screen Shot 2020-06-02 at 11.18.22 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2020-06-02 at 11.18.22 PM.png"; path = "../Screen Shot 2020-06-02 at 11.18.22 PM.png"; sourceTree = "<group>"; };
 		B45D19722472FFAE009A5FD2 /* quiz app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quiz app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45D19752472FFAE009A5FD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B45D19772472FFAE009A5FD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +54,11 @@
 			children = (
 				B45D19742472FFAE009A5FD2 /* quiz app */,
 				B45D19732472FFAE009A5FD2 /* Products */,
+				B43ADCC624874E21006D5306 /* Screen Shot 2020-06-02 at 11.18.22 PM.png */,
+				B43ADCC424874B8A006D5306 /* Screen Shot 2020-06-02 at 11.07.25 PM.png */,
+				B43ADCC224874B03006D5306 /* Screen Shot 2020-06-02 at 11.05.01 PM.png */,
+				B43ADCC024874A86006D5306 /* IMG_1214.HEIC */,
+				B43ADCBE24874A08006D5306 /* IMG_0042 2.JPG */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,8 +144,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45D19822472FFB9009A5FD2 /* LaunchScreen.storyboard in Resources */,
+				B43ADCC124874A86006D5306 /* IMG_1214.HEIC in Resources */,
+				B43ADCC324874B03006D5306 /* Screen Shot 2020-06-02 at 11.05.01 PM.png in Resources */,
+				B43ADCBF24874A09006D5306 /* IMG_0042 2.JPG in Resources */,
 				B44C8F12247DFAEB001BF23E /* Assets.xcassets in Resources */,
+				B43ADCC724874E21006D5306 /* Screen Shot 2020-06-02 at 11.18.22 PM.png in Resources */,
 				B45D197D2472FFAE009A5FD2 /* Main.storyboard in Resources */,
+				B43ADCC524874B8A006D5306 /* Screen Shot 2020-06-02 at 11.07.25 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

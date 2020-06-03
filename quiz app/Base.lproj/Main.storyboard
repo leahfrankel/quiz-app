@@ -33,6 +33,18 @@
                                 <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-06-02 at 11.07.25 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="rtW-gl-uZD">
+                                <rect key="frame" x="-19" y="521" width="259" height="178"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-06-02 at 11.05.01 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="qE9-om-257">
+                                <rect key="frame" x="172" y="384" width="287" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-06-02 at 11.18.22 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="B60-XJ-xpg">
+                                <rect key="frame" x="-51" y="254" width="322" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -180,8 +192,8 @@
                                 <color key="textColor" red="0.90850371122360229" green="0.30823856592178345" blue="0.69727116823196411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SCREENSHOT YOUR RESULTS AND SEND ME THEM! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEC-kz-WnO">
-                                <rect key="frame" x="29" y="579" width="357" height="205"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SCREENSHOT YOUR RESULTS AND SEND THEM TO ME! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEC-kz-WnO">
+                                <rect key="frame" x="-35" y="603" width="484" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <color key="textColor" red="0.31977576017379761" green="0.75250166654586792" blue="0.94653075933456421" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -202,4 +214,9 @@
             <point key="canvasLocation" x="1644.9275362318842" y="116.51785714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Screen Shot 2020-06-02 at 11.05.01 PM.png" width="488" height="578"/>
+        <image name="Screen Shot 2020-06-02 at 11.07.25 PM.png" width="537" height="605"/>
+        <image name="Screen Shot 2020-06-02 at 11.18.22 PM.png" width="354" height="504"/>
+    </resources>
 </document>
