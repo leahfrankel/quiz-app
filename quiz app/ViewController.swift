@@ -110,11 +110,6 @@ var questions: [Question] = [
                   question: "WHAT IS MY MOM'S NAME?",
                   answers: ["BRACHA", "ADINA", "SUSAN", "TINA"],
                   correctAnswer: 1),
-    Question(
-    question: "WHAT MEAL OF THE DAY IS Y FAVORITE?",
-    answers: ["DINNER", "LUNCH" , "BREAKFAST"],
-    correctAnswer: 2),
-
 
 
 
