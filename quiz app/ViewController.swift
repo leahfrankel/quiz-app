@@ -87,9 +87,25 @@ struct Question {
 
 var questions: [Question] = [
     Question(
-        question: "What is my favorite color?",
-        answers: ["pink", "blue", "yellow", "green"],
+        question: "WHAT IS MY FAVORITE COLOR?",
+        answers: ["PINK", "BLUE", "YELLOW", "GREEN"],
         correctAnswer: 2),
+   Question(
+              question: "WHAT IS MY FAVORITE CHOCOLATE BAR",
+              answers: ["KIT KAT", "TWIX", "MILKY WAY", "REECES"],
+              correctAnswer: 3),
+    Question(
+               question: "WHAT IS MY FAVORITE SEASON?",
+               answers: ["SPRING", "WINTER", "SUMMER", "FALL"],
+               correctAnswer: 0),
+    Question(
+               question: "HOW MANY SIBLINGS DO I HAVE",
+               answers: ["3", "4", "2", "5"],
+               correctAnswer: 0),
+
+
+
+
 ]
 var currentQuestion: Question?
 var currentQuestionPosition: Int = 0
